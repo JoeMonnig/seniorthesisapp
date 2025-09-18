@@ -1,4 +1,4 @@
-# Senior Thesis Repo: Comprehensive Personal Financial Visualization App
+# Senior Thesis Repo: Personal Finance Visualization and Management Tool
 This repository is provided to help you build your senior thesis project. You will edit it to store your specification documents, code, and weekly checkins.
 
 First, fork this repo (this makes a copy of it associated with your account) and then clone it to your machine (this makes a copy of your fork on your personal machine). You can then use an editor and a GitHub client to manage the repository.
@@ -80,7 +80,7 @@ The scope of the system also includes administrative tools for the Registrar’s
 - **Internet**: 
 
 ## Overview:
-The Comprehensive Personal Financial Visualization App (CPFVA) is a data based tool that utilizes data that the user inputs to assist in the visualization of finances in which the user may incur. This is created to allow users to have an easier way to look at ways to save money or be at ease for accidental overspending. 
+The Personal Finance Visualization and Management Tool (PFVMT) is a data based tool that utilizes data that the user inputs to assist in the visualization of finances in which the user may incur. This is created to allow users to have an easier way to look at ways to save money or be at ease for accidental overspending. 
 
 ### System Features:
 1. **Secure Login**: Ensures that only authorized users with registered accounts have access to the system, with user authentication based on personal credentials.
