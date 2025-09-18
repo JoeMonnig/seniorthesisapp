@@ -1,4 +1,4 @@
-# Senior Thesis Repo: [PLACE YOUR PROJECT NAME HERE]
+# Senior Thesis Repo: Comprehensive Personal Financial Visualization App
 This repository is provided to help you build your senior thesis project. You will edit it to store your specification documents, code, and weekly checkins.
 
 First, fork this repo (this makes a copy of it associated with your account) and then clone it to your machine (this makes a copy of your fork on your personal machine). You can then use an editor and a GitHub client to manage the repository.
@@ -62,24 +62,32 @@ The scope of the system also includes administrative tools for the Registrar’s
 - Track student progress and generate reports for academic performance.
 
 ### Definitions, Acronyms, and Abbreviations
-- **Registrar**: The official responsible for maintaining student records, managing course schedules, and overseeing the registration process.
-- **Student Information System (SIS)**: A university-wide database that stores student records, course information, and academic data.
-- **GPA**: Grade Point Average, a numerical representation of a student's academic performance.
-- **Semester**: A division of the academic year, typically consisting of a Fall and Spring term, in which courses are offered and completed.
-- **Waitlist**: A system that allows students to reserve a spot in a full course, subject to availability if another student drops the course.
-- **Prerequisite**: A course or requirement that must be completed before a student can enroll in a more advanced course.
-- **User Role**: A designation for system access levels, such as student, registrar, or faculty member, each with different permissions within the system.
-- **Concurrent Enrollment**: The ability for students to be enrolled in multiple courses during the same academic term.
+- **Contracts**: This term is used to define when contracts are both entered and or can be exited and what they might be for.
+- **Groceries**: Used to describe all food purchases.
+- **Insurances**: Details all insurance expenses that might be used (Renter, Home, Car, Motorcycle, Pet, etc...).
+- **Rent**: When a person enters a lease, the rent is what a user is charged monthly.
+- **Utilities**: This details all things used within a home or rental like electricity, water, sewer, gas, etc...
+- **Investments**: This is any type of input into stocks, equity, and or bonds.
+- **Personal Expenses**: Any purchases that are not necessities.
+- **Car Expenses**: Classified as repairs or parts installed on the vehicles.
+- **Gas/Diesel**: How much is paid towards filling up the gas or diesel tank of a vehicle (motorcycle, car, truck, boat, etc...)
+- **Pets**: What money may be paid for vet visits, damages, food, or grooming.
+- **Gross Income**: Total income before any deductions (pre taxes, benefits, etc...).
+- **Net Income**: Your "Take-Home-Pay", this is after all the deductions and everything are taken out of your paycheck.
+- **Taxes**: State and Federal, this is what is taken out of your gross income before in becomes your net income.
+- **Annual Averages**:
+- **Subscriptions**: What you are subscribed for that is being charged to your account (tv services, streaming services, social media, etc...)
+- **Internet**: 
 
-## Overview
-The Mahoney University Registration System is a web-based platform designed to automate the course registration process for students and faculty. It serves as the primary interface for students to manage their academic schedules and for university staff to oversee the course offerings and registration workflows.
+## Overview:
+The Comprehensive Personal Financial Visualization App (CPFVA) is a data based tool that utilizes data that the user inputs to assist in the visualization of finances in which the user may incur. This is created to allow users to have an easier way to look at ways to save money or be at ease for accidental overspending. 
 
 ### System Features:
-1. **Secure Login**: Ensures that only authorized users (students, faculty, and staff) have access to the system, with user authentication based on university credentials.
-2. **Course Search**: Allows students to browse available courses by department, term, and subject, with filtering options based on course availability, schedule, and prerequisites.
-3. **Course Registration**: Students can add or drop courses, view class schedules, and receive notifications of any conflicts or unmet prerequisites.
-4. **Grades and Transcripts**: Provides students with access to their grades from current and past semesters, as well as the ability to request official transcripts.
-5. **Registrar Management Tools**: The Registrar’s Office can create, modify, and delete course sections, set enrollment limits, and manage waitlists.
+1. **Secure Login**: Ensures that only authorized users with registered accounts have access to the system, with user authentication based on personal credentials.
+2. **Data Visualization**:
+3. **Graphed Data**:
+4. **Pie Charting**:
+5. **Annual Averages**:
 
 The system is designed with scalability in mind, allowing it to handle thousands of students registering simultaneously during peak periods. It will integrate with the university’s existing Student Information System (SIS) and is built using modern web technologies to ensure ease of use, reliability, and performance.
 
