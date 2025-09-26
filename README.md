@@ -75,9 +75,9 @@ The scope of the system also includes administrative tools for the Registrar’s
 - **Gross Income**: Total income before any deductions (pre taxes, benefits, etc...).
 - **Net Income**: Your "Take-Home-Pay", this is after all the deductions and everything are taken out of your paycheck.
 - **Taxes**: State and Federal, this is what is taken out of your gross income before in becomes your net income.
-- **Annual Averages**:
 - **Subscriptions**: What you are subscribed for that is being charged to your account (tv services, streaming services, social media, etc...)
-- **Internet**: 
+- **Internet**: How much is being paid monthly/yearly for an internet service.
+- **UNIQ**: my unique name for the hashing I ended up using which is short for "Unique Nuisance Input in Quarantine" since this is an isolated piece of data that prevents potential attackers from accessing private data since it is needed to be used with the password in order for the system to register a valid login.
 
 ## Overview:
 The Personal Finance Visualization and Management Tool (PFVMT) is a data based tool that utilizes data that the user inputs to assist in the visualization of finances in which the user may incur. This is created to allow users to have an easier way to look at ways to save money or be at ease for accidental overspending. 
