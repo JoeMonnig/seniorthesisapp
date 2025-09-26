@@ -1,5 +1,62 @@
-## Week 1 Summary (MM/DD/YYYY)
+## Week 1 Summary (09/08/2025)
 
+### This week I worked on:
+
+Building hypothesises for multiple possible project ideas for viable and doable projects.
+
+### This week I learned:
+
+My limitations of what I could do within my given timeframe to get this project completed.
+
+### My successes this week were:
+
+Chose a few ideas for guidance on and to refine for specific requirements.
+
+### The challenges I faced this week were:
+
+Not all project ideas made complete sense and learning how to refine and build complete ideas with competant and thoughtful requirements to have a baseline to continue building.
+
+---
+
+## Week 2 Summary (09/15/2025)
+### This week I worked on:
+
+Made a decision to put my full effort into researching and working on ideas for a project idea I am calling a "Personal Finance Visualization and Management Tool" and began teaching myself how to use Electron with my application.
+
+### This week I learned:
+
+How to establish and start a project and effectively start a package.json and project overview and installing all the necessary programs for it.
+
+### My successes this week were:
+
+Everything worked the first time with a few syntax based warnings in beginning the project.
+
+### The challenges I faced this week were:
+
+This week and going into next week I am challenging myself to learn how to implement version control through GitHub and link the versions without needing to manually input everything.
+
+---
+
+## Week 3 Summary (09/22/2025)
+### This week I worked on:
+
+Build 95% of what the application's databse will become (minor tweaks and references might end up getting changed). Built up the beginnings of the main page and login page for new users to access.
+
+### This week I learned:
+
+How to effectively upload and commit the majority of changes to GitHub. In addition I figured out how to secure accounts and use hashing to increase security while using multiple pages through electron.
+
+### My successes this week were:
+
+Building more of my project and streamlining how to organize and sort all the data.
+
+### The challenges I faced this week were:
+
+Figuring out how to organize the data was tough as the data names are very similar as they all involve different types of money. I had to force myself to slow down enough to be able to go step by step and achieve my goal.
+
+---
+
+## Week 4 Summary (09/29/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -18,7 +75,7 @@
 
 ---
 
-## Week 2 Summary (MM/DD/YYYY)
+## Week 5 Summary (10/06/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -37,7 +94,7 @@
 
 ---
 
-## Week 3 Summary (MM/DD/YYYY)
+## Week 6 Summary (10/13/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -56,7 +113,7 @@
 
 ---
 
-## Week 4 Summary (MM/DD/YYYY)
+## Week 7 Summary (10/20/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -75,7 +132,7 @@
 
 ---
 
-## Week 5 Summary (MM/DD/YYYY)
+## Week 8 Summary (10/27/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -94,7 +151,7 @@
 
 ---
 
-## Week 6 Summary (MM/DD/YYYY)
+## Week 9 Summary (11/03/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -113,7 +170,7 @@
 
 ---
 
-## Week 7 Summary (MM/DD/YYYY)
+## Week 10 Summary (11/10/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -132,7 +189,7 @@
 
 ---
 
-## Week 8 Summary (MM/DD/YYYY)
+## Week 11 Summary (11/17/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -151,7 +208,7 @@
 
 ---
 
-## Week 9 Summary (MM/DD/YYYY)
+## Week 12 Summary (11/24/2025)
 ### This week I worked on:
 
 [Your answer here]
@@ -170,64 +227,7 @@
 
 ---
 
-## Week 10 Summary (MM/DD/YYYY)
-### This week I worked on:
-
-[Your answer here]
-
-### This week I learned:
-
-[Your answer here]
-
-### My successes this week were:
-
-[Your answer here]
-
-### The challenges I faced this week were:
-
-[Your answer here]
-
----
-
-## Week 11 Summary (MM/DD/YYYY)
-### This week I worked on:
-
-[Your answer here]
-
-### This week I learned:
-
-[Your answer here]
-
-### My successes this week were:
-
-[Your answer here]
-
-### The challenges I faced this week were:
-
-[Your answer here]
-
----
-
-## Week 12 Summary (MM/DD/YYYY)
-### This week I worked on:
-
-[Your answer here]
-
-### This week I learned:
-
-[Your answer here]
-
-### My successes this week were:
-
-[Your answer here]
-
-### The challenges I faced this week were:
-
-[Your answer here]
-
----
-
-## Week 13 Summary (MM/DD/YYYY)
+## Week 13 Summary (12/01/2025)
 ### This week I worked on:
 
 [Your answer here]
