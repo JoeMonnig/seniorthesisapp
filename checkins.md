@@ -59,38 +59,38 @@ Figuring out how to organize the data was tough as the data names are very simil
 ## Week 4 Summary (09/29/2025)
 ### This week I worked on:
 
-[Your answer here]
+I read through more syntax and annotations of code in regards to the electron application. Continued editing variables and removing unnecessary variables to streamline and make sure the database has all the variables it might need.
 
 ### This week I learned:
 
-[Your answer here]
+How to create multiple pages for an application that can be navigated through one after another.
 
 ### My successes this week were:
 
-[Your answer here]
+I figured out a simplier way to go about encrypting and hashing passwords for user login and verification.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+With reading through so much material I feel that I wasted my time reading possibly incorrect or not what I needed in terms of resources.
 
 ---
 
 ## Week 5 Summary (10/06/2025)
 ### This week I worked on:
 
-[Your answer here]
+Annotating some of my code to provide documentation with descriptions for when I upload commits to GitHub.
 
 ### This week I learned:
 
-[Your answer here]
+How to annotate effectively without over explaining or providing too much information to comments
 
 ### My successes this week were:
 
-[Your answer here]
+Making my annotations make sense and having them make sense to someone with multiple years of experience
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Missed doing elevator pitch so holding off on writing any more visual(javascript and HTML) code just incase changes are needing to be made that would revert my progress significantly.
 
 ---
 
