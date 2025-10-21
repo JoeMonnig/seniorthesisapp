@@ -97,19 +97,19 @@ Missed doing elevator pitch so holding off on writing any more visual(javascript
 ## Week 6 Summary (10/13/2025)
 ### This week I worked on:
 
-[Your answer here]
+Refining my tabling and structuring to consolidate down from 12 table total to less than half as many.
 
 ### This week I learned:
 
-[Your answer here]
+Mass amounts of data can be useful but there are always ways to simplify or make it run with greater efficiency.
 
 ### My successes this week were:
 
-[Your answer here]
+Met with Dr. Mahoney and Dr. Zak for eleveator pitch planning for my public pitch to the whole class(was scheduled for 10/20/25 but rescheduled to 10/27/25 due to class conflicts) and got my pitch and project approved.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+How to refine and continue to have a structure in a database while it still makes enough sense.
 
 ---
 
