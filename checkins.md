@@ -40,7 +40,7 @@ This week and going into next week I am challenging myself to learn how to imple
 ## Week 3 Summary (09/22/2025)
 ### This week I worked on:
 
-Build 95% of what the application's databse will become (minor tweaks and references might end up getting changed). Built up the beginnings of the main page and login page for new users to access.
+Build 95% of what the application's database will become (minor tweaks and references might end up getting changed). Built up the beginnings of the main page and login page for new users to access.
 
 ### This week I learned:
 
@@ -116,132 +116,151 @@ How to refine and continue to have a structure in a database while it still make
 ## Week 7 Summary (10/20/2025)
 ### This week I worked on:
 
-[Your answer here]
+Refining the database and refining code and css
 
 ### This week I learned:
 
-[Your answer here]
+Database structuring for VSCode and through an application has different methods since all the files paths change when packaged.
 
 ### My successes this week were:
 
-[Your answer here]
+Allowing myself breathing room to work solely on getting the database to function.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Figuring out what was neccessary for the database to connect by using the home folder instead of within the project file.
 
 ---
 
 ## Week 8 Summary (10/27/2025)
 ### This week I worked on:
 
-[Your answer here]
+Adding functionality to the add expenses forms
 
 ### This week I learned:
 
-[Your answer here]
+Forms functionality is the same as past projects and works the same when using SQL queries.
 
 ### My successes this week were:
 
-[Your answer here]
+Learning a little bit more about querying and how to cover every end to make sure duplication or misentry doesnt occur.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Lots and lots of misentries, unauthorized accesses, and duplications of entries.
 
 ---
 
 ## Week 9 Summary (11/03/2025)
 ### This week I worked on:
 
-[Your answer here]
+Building the login structure and making sure it interfaces correctly with database and hashing
 
 ### This week I learned:
 
-[Your answer here]
+I attempted to build my own hashing table and made a bunch of headway and learned a lot.
 
 ### My successes this week were:
 
-[Your answer here]
+Partially built a customed and extensive hashing table for users data to be as secure as possible.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+The hashing table is overly complex and it makes it incredibly difficult to use so next week I plan to swap it for bcrypt or another attempt at a less overly complex hashing table.
 
 ---
 
 ## Week 10 Summary (11/10/2025)
 ### This week I worked on:
 
-[Your answer here]
+Ended up deciding on using bcrypt to do that hashing itself since the old hashing table was causing compatability issues and wasn't translating back properly.
 
 ### This week I learned:
 
-[Your answer here]
+I learned bcrypt is a great but simple tool for ease of access hashing and use especially within databases.
 
 ### My successes this week were:
 
-[Your answer here]
+Swapping completely from the custom hashing table to the bcrypt hashing and swapping all the functionalities around was very simple and easy in the long run though i will need to make small changes next week.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Transferring over to bcrypt worked great but finding references and readings on how to use it was the most difficult part about all of it to be able to figure out its full capabilities.
 
 ---
 
 ## Week 11 Summary (11/17/2025)
 ### This week I worked on:
 
-[Your answer here]
+Built a standalone short form versions of the corresponding HTML files for the application that just shows the necessities to flesh out login.js and start building index.js (my main dashboard page).
 
 ### This week I learned:
 
-[Your answer here]
+Starting to build a JavaScript file is helpful when you have a little bit of HTML to keep all the backend functions you want together and in order so that you can prioritize what to do next in the .js file.
 
 ### My successes this week were:
 
-[Your answer here]
+Sucessfully built out login.js and gave login.html more formatting.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+The structure building for index.js was difficult but it is mostly fledged out.
 
 ---
 
 ## Week 12 Summary (11/24/2025)
 ### This week I worked on:
 
-[Your answer here]
+Finalizing index.js and index.html to get full functionality and starting to add CSS styling
 
 ### This week I learned:
 
-[Your answer here]
+Buttons are very simple to format and CSS help when trying to find the separation between divs and body structure.
 
 ### My successes this week were:
 
-[Your answer here]
+Finalized index.js and index.html but only got formatting finished for login.html.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Finishing up all the buttons and data inputs for database entry was the most difficult part of this week.
 
 ---
 
 ## Week 13 Summary (12/01/2025)
 ### This week I worked on:
 
-[Your answer here]
+Finishing formatting index.html and applying CSS styling to it.
 
 ### This week I learned:
 
-[Your answer here]
+Same as last week.
 
 ### My successes this week were:
 
-[Your answer here]
+Finished up all the formatting and styling to a point that I thought was worthy of a project.
 
 ### The challenges I faced this week were:
 
-[Your answer here]
+Having to change button and colors to match everything and make sure all the CSS was uniform.
+
+---
+
+## Week 14 - 31 Summary (02/02/2026 - 05/27/2026)
+### These weeks I worked on:
+
+Refromatting everything and making the project more robust as to have more function rather that putting everything all together. I took the main page and separated it into multiple different tabs so the user could have better ease of use rather than just having everything feel like a google form that also showed all of the data and graphs as well.
+
+### These weeks I learned:
+
+Having everything on one page and making all the different pages/screens all very uniform and not having much styling to them makes the application incredibly boring. Being able to make more buttons and add more functionality makes the application seem like there is more elements to it by separating all of it.
+
+### My successes these weeks were:
+
+Essentially edited all the previous functions and made separate tabs for each element to make the visualization easier and added a bigger graph to help visualize expenses by name and made the adding of expenses feel and lot less like someone is filling out a google form.
+
+### The challenges I faced these weeks were:
+
+While restructuring my database and index codes disassociated with my login functionailty so that app would crash or break everytime I logged in and display just whitescreen even after attempting reloads and multiple attempts to cover all my bases to prevent faults.
 
 ---
