@@ -1,77 +1,37 @@
-// Has copy-pasted code from electron website and other sources so far for testing startup and build possibilities
-const { app, BrowserWindow, ipcMain } = require('electron');
-const path = require('path');
-const { registerUser, verifyUser } = require('./db');
+const {app,BrowserWindow} = require("electron");
+const path = require("path");
 
-let activeKey = null;
-let activeUserId = null; // corresponds to Users.usersid
-let mainWindow;
-let loginWindow;
+function createWindow(){
 
-// Create login window
-function createLoginWindow() {
-  loginWindow = new BrowserWindow({
-    width: 400,
-    height: 300,
-    resizable: false,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
-    },
-  });
+    const mainWindow = new BrowserWindow({
 
-  loginWindow.loadFile(path.join(__dirname, 'views/login.html'));
+        width:1400,
+        height:1000,
+
+        webPreferences:{
+            nodeIntegration:true,
+
+            contextIsolation:false
+
+        }
+    });
+
+    mainWindow.loadFile(path.join(__dirname, "views", "login.html"));
+
 }
 
-// Create main app window
-function createMainWindow() {
-  mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
-    },
-  });
+app.whenReady().then(()=>{
 
-  mainWindow.loadFile(path.join(__dirname, 'views/index.html'));
-}
+    createWindow();
 
-// IPC: handle login
-ipcMain.handle('attempt-login', async (event, username, password) => {
-  return new Promise((resolve) => {
-    verifyUser(username, password, (success, key, usersid) => {
-      if (success) {
-        activeKey = key;
-        activeUserId = usersid;
-        loginWindow.close();
-        createMainWindow();
-        resolve(true);
-      } else {
-        resolve(false);
-      }
-    });
-  });
 });
 
-// IPC: handle register
-ipcMain.handle('attempt-register', async (event, username, password) => {
-  return new Promise((resolve) => {
-    registerUser(username, password, (err, user) => {
-      if (err) return resolve(false);
-      activeKey = user.key;
-      activeUserId = user.usersid;
-      loginWindow.close();
-      createMainWindow();
-      resolve(true);
-    });
-  });
-});
+app.on("window-all-closed",()=>{
 
-app.whenReady().then(createLoginWindow);
+    if(process.platform!=="darwin"){
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit();
-});
+        app.quit();
 
-app.on('activate', () => {
-  if (BrowserWindow.getAllWindows().length === 0) createLoginWindow();
+    }
+
 });

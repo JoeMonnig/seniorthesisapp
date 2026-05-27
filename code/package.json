@@ -1,0 +1,40 @@
+{
+  "name": "seniorthesisapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeMonnig/seniorthesisapp.git"
+  },
+  "author": "Joe Monnig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeMonnig/seniorthesisapp/issues"
+  },
+  "homepage": "https://github.com/JoeMonnig/seniorthesisapp#readme",
+  "description": "This is an application that will assist in the tracking and recording of all finances and provide visual aides to help establish a better understanding of the data provided by the user to the user",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.9.0",
+    "@electron-forge/maker-deb": "^7.9.0",
+    "@electron-forge/maker-rpm": "^7.9.0",
+    "@electron-forge/maker-squirrel": "^7.9.0",
+    "@electron-forge/maker-zip": "^7.9.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
+    "@electron-forge/plugin-fuses": "^7.9.0",
+    "@electron/fuses": "^1.8.0",
+    "@electron/rebuild": "^4.0.4",
+    "electron": "^38.1.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "chart.js": "^4.5.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "sqlite3": "^5.1.7"
+  }
+}

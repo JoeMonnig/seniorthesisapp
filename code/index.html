@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Thesis App</title>
+    <link rel="stylesheet" href="../assets/style.css">
+
+</head>
+
+<body>
+    <div class="dashboard-container">
+
+        <!-- TOP BAR -->
+        <div class="top-bar">
+            <h1 id="welcome">Welcome</h1>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="nav-bar">
+            <button id="dashboardNavButton" onclick="showDashboard()" style="display:none;">Dashboard</button>
+            <button id="expenseNavButton" onclick="showExpensePage()">Add Expense</button>
+            <button id="tableNavButton" onclick="showTablePage()">Expenses Table</button>
+
+        </div>
+
+        <!-- DASHBOARD PAGE -->
+        <div id="dashboardPage">
+
+            <!-- ALL EXPENSES CHART -->
+            <div class="large-chart-box">
+                <h2>Expenses By Name</h2>
+                <canvas id="allExpensesChart"></canvas>
+
+            </div>
+
+            <div class="chart-container">
+                <div class="chart-box">
+                    <h2>Wants vs Needs</h2>
+                    <canvas id="wantsNeedsChart"></canvas>
+
+                </div>
+
+                <div class="chart-box">
+                    <h2>One-Time vs Recurring</h2>
+                    <canvas id="recurringChart"></canvas>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ADD EXPENSE PAGE -->
+        <div id="expensePage" style="display:none;">
+
+        <div class="expense-window">
+
+            <div class="expense-header">
+                <h2>Add Expense</h2>
+                <p>Track and organize your financial activity</p>
+
+            </div>
+
+            <!-- TOP ROW -->
+            <div class="expense-row">
+
+                <div class="expense-field">
+
+                    <label>Prebuilt Expense</label>
+
+                    <select id="prebuiltSelect">
+
+                        <option value="">-- Select --</option>
+
+                    </select>
+
+                </div>
+
+                <div class="expense-field">
+
+                    <label>Expense Type</label>
+
+                    <select id="expenseType">
+                        <option value="income">Income</option>
+                        <option value="recurring-want">Recurring Want</option>
+                        <option value="recurring-need">Recurring Need</option>
+                        <option value="one-time-want">One-Time Want</option>
+                        <option value="one-time-need">One-Time Need</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <!-- NAME -->
+            <div class="expense-field full-width">
+                <label>Expense Name</label>
+                <input type="text" id="expenseName" placeholder="Enter expense name">
+
+            </div>
+
+            <!-- DESCRIPTION -->
+            <div class="expense-field full-width">
+                <label>Description</label>
+                <input type="text" id="expenseDescription" placeholder="Add optional notes">
+
+            </div>
+
+            <!-- DATES -->
+            <div class="expense-row">
+                <div class="expense-field">
+                    <label>Due Date</label>
+                    <input type="date" id="expenseDueDate">
+
+                </div>
+
+                <div class="expense-field">
+                    <label>Pay Date</label>
+                    <input type="date" id="expensePayDate">
+
+                </div>
+            </div>
+
+            <!-- AMOUNT -->
+            <div class="amount-box">
+                <label>Amount</label>
+                <div class="amount-input-wrapper">
+                    <span class="currency-symbol">$</span>
+                    <input type="number" id="expenseAmount" placeholder="0.00">
+
+                </div>
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="expense-actions">
+                <button id="addExpenseButton" class="primary-btn">Add Expense</button>
+                <button onclick="clearInputs()" class="secondary-btn">Clear</button>
+
+            </div>
+        </div>
+    </div>
+
+        <!-- TABLE PAGE -->
+        <div id="tablePage" style="display:none;">
+
+            <!-- FILTERS -->
+            <div class="filter-bar">
+
+                <label for="monthFilter">Month:</label>
+
+                <select id="monthFilter">
+                    <option value="all">All</option>
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                    <option value="7">August</option>
+                    <option value="8">September</option>
+                    <option value="9">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+
+                </select>
+
+                <label for="yearFilter">Year:</label>
+
+                <select id="yearFilter">
+
+                    <option value="all">All</option>
+
+                </select>
+            </div>
+
+            <!-- TABLE -->
+            <div class="expense-table-box">
+
+                <h2>Your Expenses</h2>
+
+                <table id="expenseTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Due Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="expenseTableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- EDIT EXPENSE MODAL -->
+        <div id="editModal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <h2>Edit Expense</h2>
+                <input type="hidden" id="editExpenseId">
+
+                <label>Name</label>
+                <input type="text" id="editExpenseName">
+
+                <label>Description</label>
+                <input type="text" id="editExpenseDescription">
+
+                <label>Type</label>
+                <select id="editExpenseType">
+                    <option value="income">Income</option>
+                    <option value="recurring-want">Recurring Want</option>
+                    <option value="recurring-need">Recurring Need</option>
+                    <option value="one-time-want">One Time Want</option>
+                    <option value="one-time-need">One Time Need</option>
+
+                </select>
+
+                <label>Due Date</label>
+                <input type="date" id="editExpenseDueDate">
+
+                <label>Pay Date</label>
+                <input type="date" id="editExpensePayDate">
+
+                <label>Amount</label>
+                <input type="number" id="editExpenseAmount">
+
+                <div class="modal-buttons">
+                    <button onclick="saveExpenseEdit()">Save</button>
+                    <button onclick="closeEditModal()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHART.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- INDEX.JS -->
+    <script src="../renderer/index.js"></script>
+
+</body>
+</html>
